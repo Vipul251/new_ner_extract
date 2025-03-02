@@ -159,7 +159,8 @@ Deploy an interactive web app for querying the API.
 Display extracted names, classifications, and similar articles.
 5.3 Adding LLM-based Summarization
 Use OpenAI GPT models via LangChain for automatic news summarization.
-6. Conclusion
+
+7. Conclusion
 
 This API efficiently extracts, classifies, and searches news articles. It can be extended with vector search, Streamlit UI, and LLM-based summarization for better usability and AI-powered insights.
 This API has been successfully tested for Named Entity Recognition (NER) tagging and article classification. Future enhancements include:
@@ -186,6 +187,7 @@ Convert articles into vector embeddings using LangChain with OpenAI/BERT embeddi
 Store vectors in FAISS (Facebook AI Similarity Search) for fast nearest-neighbor retrieval.
 Query similar articles based on vector similarity.
 Step 5: Streamlit UI for User-Friendly Access (Future Enhancement)
+
 Develop an interactive dashboard for users to input text and visualize:
 Extracted person names
 Classified categories
